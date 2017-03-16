@@ -44,7 +44,6 @@ export default class Photo extends FormGroup {
   render() {
 
     const inputClasses = Helper.classnames([this.props.className,'photo-input','form-group',{
-      'required': this.props.required,
       'has-error': !this.state.isValid
     }]);
 
